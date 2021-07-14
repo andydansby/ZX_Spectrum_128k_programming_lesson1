@@ -6,4 +6,4 @@ This is Part 1 of programming a 128K Spectrum with Z88dk using the SCCZ80 compil
 
 Step by step programming for a 128K Spectrum.  In this lesson we are going to explore how to create 3 seperate programs in each portion of memory, contended (0x5DC0 - 0x7FFF), uncontended low (0x8000 - 0xBFFF) and uncontended high (0xC000 - 0xFFFF).
 
-Introduction to this lesson can be found at https://wordpress.com/post/zxspectrumcoding.wordpress.com/791
+Introduction to this lesson can be found at https://zxspectrumcoding.wordpress.com/2021/07/14/128k-programming-basics-using-z88dk-and-the-sccz80-compiler-introduction/
