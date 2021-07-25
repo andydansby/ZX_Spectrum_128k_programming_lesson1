@@ -4,13 +4,11 @@ cd codemaps
 	del objects.o
 cd ..
 
-del contended.tap
-
 rem this creates an object file
 zcc +zx -vn -SO3 -c -clib=new -o objects.o -startup=30 --fsigned-char @ramlow.lst
 
 rem compile to a TAP file
-zcc +zx -vn -SO3 -m -lm -clib=new @ramlow.lst -pragma-include:zpragma.inc -startup=30  -create-app -o contended
+zcc +zx -vn -SO3 -m -lm -clib=new @ramlow.lst -pragma-include:zpragma.inc -startup=30 -create-app -o contended
 
 
 copy "objects.o" "contended.o"
@@ -36,4 +34,3 @@ cd ..
 
 
 @call beep.bat
-

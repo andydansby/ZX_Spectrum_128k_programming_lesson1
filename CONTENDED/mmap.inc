@@ -39,7 +39,6 @@ org 0x5DC0      ;	24000
 SECTION CONTENDED_END
 org 0x7FFF      ;	32767
 
-
 ;;	$BFFF = 49151 is very top end of RAM that does not get banked
 ;;	$c000 = 49152 very bottom end of RAM that is Bankable
 
@@ -47,8 +46,8 @@ org 0x7FFF      ;	32767
 ;; sections defined
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;;-----------------------------------------------------------------------------------------
-
+;;placing stack at 0xBFFE for FF bytes
+;so stack runs for 0xBEFF to BFFE
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

@@ -23,6 +23,7 @@ void main(void)
 {
 	doSomething();
 	printf ("Main ()\n");
+	printf ("hello contended RAM\n");
 
 	tom = 2;
 	dick = 2;
