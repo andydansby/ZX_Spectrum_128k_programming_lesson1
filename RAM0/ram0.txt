@@ -1,0 +1,14 @@
+Object  file objects.o at $0000: Z80RMF12
+  Name: ram0_c
+  Section data_compiler: 2 bytes
+  Section code_compiler: 76 bytes
+  Section rodata_compiler: 43 bytes
+  Section bss_compiler: 0 bytes
+  Symbols:
+    G A $0000 _susan (section data_compiler) (file ram0.c:17)
+    G A $0000 _subtract2numbers (section code_compiler) (file ram0.c:25)
+    G A $0015 _RAM0 (section code_compiler) (file ram0.c:44)
+    G A $003F _main (section code_compiler) (file ram0.c:72)
+  Externs:
+    U         zx_cls
+    U         printf

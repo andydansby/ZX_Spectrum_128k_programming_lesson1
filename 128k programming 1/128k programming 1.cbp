@@ -48,8 +48,8 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../UNCONTENDED/uncontended.h" />
+		<Unit filename="../UNCONTENDED/variables.h" />
 		<Unit filename="../UNCONTENDED/zpragma.inc" />
-		<Unit filename="../all.bat" />
 		<Unit filename="../compile.bat" />
 		<Extensions />
 	</Project>
